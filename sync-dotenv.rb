@@ -2,9 +2,9 @@
 class SyncDotenv < Formula
   desc "sync-dotenv helps you to keep your .env.example in sync with your .env file."
   homepage "https://github.com/atrox/sync-dotenv"
-  url "https://github.com/Atrox/sync-dotenv/releases/download/v0.1.1/sync-dotenv_0.1.1_Darwin_x86_64.tar.gz"
-  version "0.1.1"
-  sha256 "b34d0c87ff80edf393d7fabf355d150bf45abca5d6b7476a1cb8cf18364936e4"
+  url "https://github.com/Atrox/sync-dotenv/releases/download/v0.1.2/sync-dotenv_0.1.2_Darwin_x86_64.tar.gz"
+  version "0.1.2"
+  sha256 "4d0c945958f8be1d540fb92093d354051e1feb1cfb173cac5ceef8accce13492"
 
   def install
     bin.install "sync-dotenv"
